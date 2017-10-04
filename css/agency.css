@@ -17,6 +17,12 @@ font-style: normal;
 
 }
 
+.center-justified {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
 .n-gage{
     font-family: ngage;
 }
@@ -27,6 +33,9 @@ body {
 
 .text-muted {
     color: #777;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
 }
 
 .text-primary {
